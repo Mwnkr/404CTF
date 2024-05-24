@@ -15,3 +15,7 @@ Bonne chance !
 
 ## Auteur
 **acmo0**
+
+# Idée de la solution
+
+Ici, nous avons déjà accès à suffisamment d'octets du clair pour reconstruire l'état initial du "LFSR" sans s'intéresser plus que ça à son fonctionnement.
