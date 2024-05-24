@@ -33,14 +33,14 @@ Le nombre de points d'un challenge ne peut pas descendre en dessous de 200 point
 | Nom | Catégorie | Nombre de points | Nombre de validations | Résolu |
 | - | - | - | - | - |
 | **Cryptanalyse** |
-| Bébé nageur(./BebeNageur/) | 🟦 Intro | 100 points | 1152 validations | ✔ |
-| [Le petit bain](./LePetitBain/) | 🟩 Facile | 200 points | 254 validations | ✔ |
-| [Poor Random Number Generator 1 ](./PRNG%201/) | 🟩 Facile | 271 points | 192 validations | ✔ |
-| [Plongeon Rapide Super Artistique](./PlongeonRapideSuperArtistique/) | 🟧 Moyen | 698 points | 124 validations | ✔ |
-| [J'éponge donc j'essuie](./JepongeDoncJessuie/) | 🟧 Moyen | 891 points | 75 validations | ✔ |
-| [Poor Random Number Generator 2 ](./PRNG%202/) | 🟧 Moyen | 956 points | 48 validations | ✔ |
-| [La Seine](./La%20Seine/) | 🟥 Difficile | 968 points | 41 validations | ✔ |
-| [J'ai glissé chef](./JaiGlisseChef/) ! | 🟥 Difficile | 996 points | 16 validations | ✔  |
+| Bébé nageur(./BebeNageur/) | 🟦 Intro | 100 points | 1152 validations | ✅ |
+| [Le petit bain](./LePetitBain/) | 🟩 Facile | 200 points | 254 validations | ✅ |
+| [Poor Random Number Generator 1 ](./PRNG%201/) | 🟩 Facile | 271 points | 192 validations | ✅ |
+| [Plongeon Rapide Super Artistique](./PlongeonRapideSuperArtistique/) | 🟧 Moyen | 698 points | 124 validations | ✅ |
+| [J'éponge donc j'essuie](./JepongeDoncJessuie/) | 🟧 Moyen | 891 points | 75 validations | ✅ |
+| [Poor Random Number Generator 2 ](./PRNG%202/) | 🟧 Moyen | 956 points | 48 validations | ✅ |
+| [La Seine](./La%20Seine/) | 🟥 Difficile | 968 points | 41 validations | ✅ |
+| [J'ai glissé chef](./JaiGlisseChef/) ! | 🟥 Difficile | 996 points | 16 validations | ✅  |
 | SEA - La face cachée de l'Iceberg | 🟥 Difficile | 999 points | 9 validations | ❌ |
 
 ### Deuxième vague de challenges du 05 Mai au 12 Mai (après mon départ en vacances)
