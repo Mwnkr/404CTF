@@ -13,3 +13,14 @@ Vous vous avancez sur le plongeoir, la foule est tellement en liesse que la plan
 
 ## Auteur
 **GMO_Goat**
+
+# Idée de la solution
+
+Nous avons accès au polynôme N(X) et à la valeur de la clé RSA N(r).
+
+Il est facile de factoriser N(X), dont on sait qu'il a deux facteurs P(X) et Q(X) que l'on retrouve facilement.
+
+Ainsi, nous devons juste trouver r pour factoriser la clé N(r) en évaluant P ou Q en r.
+
+Pour cela, il suffit de trouver une racine du polynôme Z(X) = N(X)-N(r) qui nous convient. Or, il est facile de trouver les racines d'un polynôme.
+
