@@ -33,8 +33,8 @@ Le nombre de points d'un challenge ne peut pas descendre en dessous de 200 point
 | Nom | Catégorie | Nombre de points | Nombre de validations | Résolu |
 | - | - | - | - | - |
 | **Cryptanalyse** |
-| [Bébé nageur](./BebeNageur/) | 🟦 Intro | 100 points | 1152 validations | ✔ |
-| Le petit bain | 🟩 Facile | 200 points | 254 validations | ✔ |
+| Bébé nageur(./BebeNageur/) | 🟦 Intro | 100 points | 1152 validations | ✔ |
+| [Le petit bain](./LePetitBain/) | 🟩 Facile | 200 points | 254 validations | ✔ |
 | [Poor Random Number Generator 1 ](./PRNG%201/) | 🟩 Facile | 271 points | 192 validations | ✔ |
 | [Plongeon Rapide Super Artistique](./PlongeonRapideSuperArtistique/) | 🟧 Moyen | 698 points | 124 validations | ✔ |
 | [J'éponge donc j'essuie](./JepongeDoncJessuie/) | 🟧 Moyen | 891 points | 75 validations | ✔ |
