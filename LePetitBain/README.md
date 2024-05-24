@@ -1,3 +1,20 @@
+# Le petit bain
+## Catégorie
+Crypto
+## Difficulté
+Facile
+## Énoncé
+
+Malheureusement, votre revanche contre votre rival s'est soldée par une défaite. En toute bonne foi, vous le suspectez d'avoir triché. Piqué au vif, vous fouillez son casier et tombez sur un étrange mot. À vous de le déchiffrer.
+
+## Données :
+[challenge.py](challenge.py)
+
+## Auteurs
+**acmo0** et **Little_endi4ane**
+
+# Idée de la solution
+
 La résolution de ce problème repose sur deux observations clés :
 
 1. **Structure cyclique :** La permutation utilisée est d'ordre 6 et agit sur le code par blocs de 6 caractères. Nous sommes donc face à 6 chiffrements affines successifs.
