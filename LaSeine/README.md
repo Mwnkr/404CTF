@@ -17,6 +17,8 @@ La compétition d'apnée est sur le point de commencer, l'eau est un peu trouble
 
 # Idée de la solution
 
+Ce challenge etant un peu particulier je pense que le mieux serait de me contacter directement sur discord @mairwane pour en discuter.
+
 Alors ici, le but est de retrouver a et b.
 
 Tout d'abord, j'ai commencé à écrire à la main les premières itérations de xn, yn. J'y ai reconnu les valeurs du triangle de Pascal, ce qui rime souvent avec binôme de Newton.
