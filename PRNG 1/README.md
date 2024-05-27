@@ -1,21 +1,21 @@
 # Poor Random Number Generator 1/2
-## Catégorie
+## Category
 Crypto
-## Difficulté
-Facile
-## Énoncé
+## Difficulty
+Easy
+## Statement
 
-J'ai chiffré le fichier flag.png. Malheureusement, une partie du clair a fuité. Cependant, j'ai confiance en mon algorithme de chiffrement, un One Time Pad c'est incassable !
+I encrypted the file flag.png. Unfortunately, part of the plaintext has leaked. However, I trust my encryption algorithm, a One Time Pad is unbreakable!
 
-Bonne chance !
+Good luck!
 
-## Ressources
+## Resources
 
 [challenge.zip](challenge.zip)
 
-## Auteur
+## Author
 **acmo0**
 
-# Idée de la solution
+# Solution Idea
 
-Ici, nous avons déjà accès à suffisamment d'octets du clair pour reconstruire l'état initial du "LFSR" sans s'intéresser plus que ça à son fonctionnement.
+Here, we already have access to enough bytes of the plaintext to reconstruct the initial state of the "LFSR" without needing to delve too deeply into its functioning.

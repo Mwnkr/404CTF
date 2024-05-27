@@ -1,33 +1,33 @@
 # J'ai glissé chef !
-## Catégorie
+## Category
 Crypto
-## Difficulté
-Difficile/Extrême
-## Énoncé
+## Difficulty
+Hard/Extreme
+## Statement
 
-Je rangeais mes affaires au bord du bassin après ma séance de natation et j'ai fait tomber mes clés au fond du grand bassin...
-Aidez-moi à les récupérer !
+I was packing my things by the pool after my swimming session and I dropped my keys to the bottom of the deep pool...
+Help me retrieve them!
 
-Note : la résolution peut prendre un petit peu de temps
-## Ressources
+Note: the solution might take a little bit of time.
+## Resources
 
 [feistel.py](feistel.py)
 
-## Auteur
+## Author
 **acmo0**
 
-# Idée de la solution
+# Solution Idea
 
-Nous sommes ici face à un chiffrement basé sur un réseau de Feistel. La première chose qui interpelle est qu'il est composé de 96 tours, ce qui rend invraisemblable la possibilité d'une attaque différentielle ou algébrique. De même, la SBOX est celle de Rijndael, donc aucune vulnérabilité de ce côté. Nous avons également accès à un oracle de chiffrement et de déchiffrement utilisable au maximum un peu plus de 2^18 fois. On peut donc ainsi appliquer une attaque par glissement, comme le laisse entendre le titre du challenge.
+We are dealing with encryption based on a Feistel network here. The first noticeable aspect is that it comprises 96 rounds, making differential or algebraic attacks highly unlikely. Similarly, the SBOX is that of Rijndael, so there are no vulnerabilities on that front. We also have access to an encryption and decryption oracle, which can be used up to a little more than 2^18 times. Thus, we can apply a slide attack, as suggested by the challenge title.
 
-Nous allons appliquer une variante de cette [attaque](https://link.springer.com/content/pdf/10.1007/3-540-48519-8_18.pdf).
+We will apply a variant of this [attack](https://link.springer.com/content/pdf/10.1007/3-540-48519-8_18.pdf).
 
-![attaque](slideattack.png)
+![attack](slideattack.png)
 
-À la différence près que l'on a deux clés de tour différentes. On va donc utiliser l'oracle de déchiffrement comme un oracle de chiffrement sur le deuxième clair pour trouver la "slid pair".
+The difference here is that we have two different round keys. So, we will use the decryption oracle as an encryption oracle on the second plaintext to find the "slid pair."
 
-Pour la deuxième clé de tour, c'est la même chose mais inversement.
+For the second round key, it's the same process but in reverse.
 
-On peut d'ailleurs tomber sur des faux positifs. Pour les éliminer, il suffit d'appliquer la fonction qui permet de retrouver la clé aux clairs, puis aux chiffres de la slid pair, puis de comparer. Si l'output est différent, c'est alors un faux positif et on doit continuer la recherche.
+False positives can occur. To eliminate them, simply apply the function that retrieves the key to the plaintexts, then to the ciphertexts of the slid pair, and compare. If the output is different, it is a false positive and we must continue the search.
 
 ![FLAG](flag.png)

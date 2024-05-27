@@ -1,38 +1,38 @@
 # Poor Random Number Generator 2/2
-## Catégorie
+## Category
 Crypto
-## Difficulté
-Moyen
-## Énoncé
+## Difficulty
+Medium
+## Statement
 
-Félicitation ! C'est vrai que mon PRNG précédent n'était pas terrible... Je l'ai donc patché ! J'ai de nouveau chiffré un nouveau fichier PNG et cette fois-ci j'ai essayé de limiter les données en clair qui ont fuité.
+Congratulations! It's true that my previous PRNG wasn't great... So I patched it! I have re-encrypted a new PNG file and this time I tried to limit the leaked plaintext data.
 
-Bonne chance !
+Good luck!
 
-## Ressources
+## Resources
 
 [challenge.zip](challenge.zip)
 
-## Auteur
+## Author
 **acmo0**
 
-# Idée de la solution
+# Solution Idea
 
-Nous sommes face à un LFSR combiné à 3 registres de taille 19. Nous avons également 35 bytes de clair connu. Nous nous en servons pour obtenir le début de la suite chiffrante du LFSR combiné.
+We are dealing with an LFSR combined with 3 registers of size 19. We also have 35 bytes of known plaintext. We use this to obtain the start of the keystream from the combined LFSR.
 
-En faisant la table de vérité :
+By making the truth table:
 
-|x1 |x2 |x3 |f(x) |
-|-|-|-|-|
-|0 |0 |0 |0 |
-|0 |0 |1 |0 |
-|0 |1 |0 |0 |
-|0 |1 |1 |1 |
-|1 |0 |0 |0 |
-|1 |0 |1 |1 |
-|1 |1 |0 |1 |
-|1 |1 |1 |1 |
+| x1 | x2 | x3 | f(x) |
+|----|----|----|------|
+| 0  | 0  | 0  | 0    |
+| 0  | 0  | 1  | 0    |
+| 0  | 1  | 0  | 0    |
+| 0  | 1  | 1  | 1    |
+| 1  | 0  | 0  | 0    |
+| 1  | 0  | 1  | 1    |
+| 1  | 1  | 0  | 1    |
+| 1  | 1  | 1  | 1    |
 
-Nous nous rendons compte que chaque registre a une probabilité de 75% que sa sortie soit la même que la sortie de la fonction de combinaison du LFSR.
+We realize that each register has a 75% probability that its output is the same as the output of the LFSR combination function.
 
-Nous allons donc appliquer une attaque par corrélation pour retrouver l'état initial de chaque registre.
+We will then apply a correlation attack to find the initial state of each register.

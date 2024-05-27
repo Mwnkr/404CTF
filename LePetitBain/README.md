@@ -1,30 +1,30 @@
 # Le petit bain
-## Catégorie
+## Category
 Crypto
-## Difficulté
-Facile
-## Énoncé
+## Difficulty
+Easy
+## Statement
 
-Malheureusement, votre revanche contre votre rival s'est soldée par une défaite. En toute bonne foi, vous le suspectez d'avoir triché. Piqué au vif, vous fouillez son casier et tombez sur un étrange mot. À vous de le déchiffrer.
+Unfortunately, your rematch against your rival ended in defeat. In all fairness, you suspect he cheated. Stung, you search his locker and find a strange note. It's up to you to decipher it.
 
-## Données :
+## Data:
 [challenge.py](challenge.py)
 
-## Auteurs
-**acmo0** et **Little_endi4ane**
+## Authors
+**acmo0** and **Little_endi4ane**
 
-# Idée de la solution
+# Solution Idea
 
-La résolution de ce problème repose sur deux observations clés :
+The solution to this problem relies on two key observations:
 
-1. **Structure cyclique :** La permutation utilisée est d'ordre 6 et agit sur le code par blocs de 6 caractères. Nous sommes donc face à 6 chiffrements affines successifs.
+1. **Cyclic Structure:** The permutation used has an order of 6 and acts on the code in blocks of 6 characters. Therefore, we are dealing with 6 successive affine ciphers.
 
-2. **Composition affine :** Un chiffrement affine appliqué à un autre chiffrement affine reste un chiffrement affine.
+2. **Affine Composition:** An affine cipher applied to another affine cipher remains an affine cipher.
 
-**Exploitation du flag partiel :**
+**Exploitation of the Partial Flag:**
 
-Le début du flag connu ("404CTF{tHe_c") nous fournit 12 caractères, soit deux blocs de 6.  Ces deux blocs nous donnent deux équations suffisantes pour déterminer les 6 couples (a, b) nécessaires au déchiffrement.
+The known start of the flag ("404CTF{tHe_c") provides us with 12 characters, which makes two blocks of 6. These two blocks give us two equations sufficient to determine the 6 (a, b) pairs necessary for decryption.
 
-**En résumé :**
+**Summary:**
 
-La connaissance du début du flag permet de résoudre le système d'équations correspondant aux deux premiers chiffrements. Une fois ces couples (a, b) trouvés, nous pouvons déchiffrer l'intégralité du message.
+Knowing the beginning of the flag allows us to solve the system of equations corresponding to the first two ciphers. Once these (a, b) pairs are found, we can decrypt the entire message.

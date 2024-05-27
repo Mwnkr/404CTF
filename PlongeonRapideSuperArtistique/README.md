@@ -1,26 +1,25 @@
 # Plongeon Rapide Super Artistique !
-## Catégorie
+## Category
 Crypto
-## Difficulté
-Moyen
-## Énoncé
+## Difficulty
+Medium
+## Statement
 
-Vous vous avancez sur le plongeoir, la foule est tellement en liesse que la planche en tremble. C'est le dernier saut avant d'avoir votre note finale et donc votre classement pour ce sport. Vous sautez, le monde se ralentit et, comme à l'entrainement, vous effectuez l'enchaînement de figures que vous avez travaillées. Une fois la tête sortie de l'eau, personne du jury ne montre de note ! Un flash vous frappe, c'est vrai que la note est transmise par chiffrement RSA ! Mais après vos multiples figures aériennes, vous ne vous souvenez que de votre clef publique, et de la trajectoire que vous avez empruntée...
+You step onto the diving board, the crowd is so excited that the board is trembling. This is the final dive before you get your final score and your ranking in this sport. You jump, the world slows down, and just like in training, you perform the sequence of moves you practiced. Once you surface, none of the judges show a score! A flash hits you, you remember that the score is transmitted via RSA encryption! But after your multiple aerial moves, you only remember your public key and the trajectory you took...
 
-## Ressources
+## Resources
 
 [PlongeonRapideSuperArtistique.py](PlongeonRapideSuperArtistique.py)
 
-## Auteur
+## Author
 **GMO_Goat**
 
-# Idée de la solution
+# Solution Idea
 
-Nous avons accès au polynôme N(X) et à la valeur de la clé RSA N(r).
+We have access to the polynomial N(X) and the value of the RSA key N(r).
 
-Il est facile de factoriser N(X), dont on sait qu'il a deux facteurs P(X) et Q(X) que l'on retrouve facilement.
+It is easy to factor N(X), which we know has two factors P(X) and Q(X) that can be found easily.
 
-Ainsi, nous devons juste trouver r pour factoriser la clé N(r) en évaluant P ou Q en r.
+Thus, we just need to find r to factor the key N(r) by evaluating P or Q at r.
 
-Pour cela, il suffit de trouver une racine du polynôme Z(X) = N(X)-N(r) qui nous convient. Or, il est facile de trouver les racines d'un polynôme.
-
+To do this, we simply need to find a root of the polynomial Z(X) = N(X) - N(r) that suits us. It is easy to find the roots of a polynomial.

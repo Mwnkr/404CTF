@@ -1,53 +1,51 @@
+## Presentation
 
-## Présentation
+The 404CTF-2024 is the third edition of the 404CTF, co-organized by DGSE, Télécom SudParis, HackademINT, OVHcloud, and Viva Technology. The 2024 edition took place from April 20 to May 12, 2024, bringing together over 3000 participants around 72 challenges designed by HackademINT.
 
-Le 404CTF-2024 est la troisième édition du 404CTF, coorganisée par la DGSE, Télécom SudParis, HackademINT, OVHcloud et Viva Technology. L'édition 2024 s'est tenue du 20 avril au 12 mai 2024 et a rassemblé plus de 3000 participants autour de 72 challenges conçus par HackademINT.
+Most of the challenges have been made public by the HackademINT club along with their solutions [here](https://github.com/HackademINT/404CTF-2024).
 
-La plupart des challenges ont été rendus public par le club HackademINT ainsi que leur solution [ici](https://github.com/HackademINT/404CTF-2024).
+## Context
 
-## Contexte
+Here is my result and the details of my participation in the 404CTF. It was a great experience even though the last week of the competition coincided with my vacation, which prevented me from tackling the new challenges added at that time.
 
-Ici se trouve mon résultat et le détail de ma participation au 404CTF. Se fut une très belle expérience malgré que la dernière semaine de compétition coincide avec mes vacances ce qui m'empêcha d'aborder les nouveaux challenges rajoutés à ce moment-là.
+Being not very experienced in this kind of competition, my way of solving problems is not very "write-up friendly". Many challenges were solved "with paper/pencil" and [dcode](dcode.fr), or the computer was used mostly as a calculator, so to speak.
 
-N'étant pas un habitué de ce genre de compétition ma manière de résoudre les problèmes n'est pas très "write-up friendly". Beaucoup de challenge ont été résolu "avec papier/crayon" et [dcode](dcode.fr) ou l'ordinateur servait globalement de calculatrice si je puis dire.
+## Personal Results
 
+**Ranking:** 140th / 3791
 
-## Résultat personnel
+**Final Score:** 5990 points
 
-**Classement :** 140ème / 3791
+![Ranking](ranking.png)
 
-**Score final :** 5990 points
-
-![Classement](ranking.png)
-
-![Proportion des résolutions](proportion.png)
+![Resolution Proportion](proportion.png)
 
 ## Challenges 
 
-Tous les challenges ont un score de base de 1000 points, à l'exception des challenges d'introduction ayant un score de 100 points.  
-Ce score diminue en fonction du nombre de validation afin de rééquilibrer les challenges selon leur difficulté.  
-Le nombre de points d'un challenge ne peut pas descendre en dessous de 200 points. Les challenges d'introduction ne sont pas soumis à ce rééquilibrage.
+All challenges have a base score of 1000 points, except for introductory challenges which have a score of 100 points.  
+This score decreases based on the number of validations to rebalance the challenges according to their difficulty.  
+The score of a challenge cannot drop below 200 points. Introductory challenges are not subject to this rebalancing.
 
-### Première vague de challenges du 20 Avril au 12 Mai
+### First wave of challenges from April 20 to May 12
 
-| Nom | Catégorie | Nombre de points | Nombre de validations | Résolu |
+| Name | Category | Number of Points | Number of Validations | Solved |
 | - | - | - | - | - |
-| **Cryptanalyse** |
+| **Cryptanalysis** |
 | Bébé nageur | 🟦 Intro | 100 points | 1152 validations | ✅ |
-| [Le petit bain](./LePetitBain/) | 🟩 Facile | 200 points | 254 validations | ✅ |
-| [Poor Random Number Generator 1 ](./PRNG%201/) | 🟩 Facile | 271 points | 192 validations | ✅ |
-| [Plongeon Rapide Super Artistique](./PlongeonRapideSuperArtistique/) | 🟧 Moyen | 698 points | 124 validations | ✅ |
-| [J'éponge donc j'essuie](./JepongeDoncJessuie/) | 🟧 Moyen | 891 points | 75 validations | ✅ |
-| [Poor Random Number Generator 2 ](./PRNG%202/) | 🟧 Moyen | 956 points | 48 validations | ✅ |
-| [La Seine](./LaSeine/) | 🟥 Difficile | 968 points | 41 validations | ✅ |
-| [J'ai glissé chef](./JaiGlisseChef/) ! | 🟥 Difficile | 996 points | 16 validations | ✅  |
-| SEA - La face cachée de l'Iceberg | 🟥 Difficile | 999 points | 9 validations | ❌ |
+| [Le petit bain](./LePetitBain/) | 🟩 Easy | 200 points | 254 validations | ✅ |
+| [Poor Random Number Generator 1 ](./PRNG%201/) | 🟩 Easy | 271 points | 192 validations | ✅ |
+| [Plongeon Rapide Super Artistique](./PlongeonRapideSuperArtistique/) | 🟧 Medium | 698 points | 124 validations | ✅ |
+| [J'éponge donc j'essuie](./JepongeDoncJessuie/) | 🟧 Medium | 891 points | 75 validations | ✅ |
+| [Poor Random Number Generator 2 ](./PRNG%202/) | 🟧 Medium | 956 points | 48 validations | ✅ |
+| [La Seine](./LaSeine/) | 🟥 Hard | 968 points | 41 validations | ✅ |
+| [J'ai glissé chef](./JaiGlisseChef/) ! | 🟥 Hard | 996 points | 16 validations | ✅  |
+| SEA - La face cachée de l'Iceberg | 🟥 Hard | 999 points | 9 validations | ❌ |
 
-### Deuxième vague de challenges du 05 Mai au 12 Mai (après mon départ en vacances)
+### Second wave of challenges from May 5 to May 12 (after my departure on vacation)
 
-| Nom | Catégorie | Nombre de points | Nombre de validations | Résolu |
+| Name | Category | Number of Points | Number of Validations | Solved |
 | - | - | - | - | - |
-| **Cryptanalyse** |
-| Zack Adeaux | 🟧 Moyen | 967 points | 42 validations | 🏖️ |
-| RSAlade-tomatECC-oigNPon | 🟥 Difficile | 1000 points | 7 validations | 🏖️ |
-| La Brasse ou Le Papillon ? | 🟪 Extrême | 1000 points | 1 validation | 🏖️ |
+| **Cryptanalysis** |
+| Zack Adeaux | 🟧 Medium | 967 points | 42 validations | 🏖️ |
+| RSAlade-tomatECC-oigNPon | 🟥 Hard | 1000 points | 7 validations | 🏖️ |
+| La Brasse ou Le Papillon ? | 🟪 Extreme | 1000 points | 1 validation | 🏖️ |
