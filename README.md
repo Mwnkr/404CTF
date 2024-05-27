@@ -8,7 +8,7 @@ Most of the challenges have been made public by the HackademINT club along with 
 
 Here is my result and the details of my participation in the 404CTF. It was a great experience even though the last week of the competition coincided with my vacation, which prevented me from tackling the new challenges added at that time.
 
-Being not very experienced in this kind of competition, my way of solving problems is not very "write-up friendly". Many challenges were solved "with paper/pencil" and [dcode](dcode.fr), or the computer was used mostly as a calculator, so to speak.
+Being not very experienced in this kind of competition, my way of solving problems is not very "write-up friendly". Many challenges were solved "with paper/pencil" and [dCode](dcode.fr), or the computer was used mostly as a calculator, so to speak.
 
 ## Personal Results
 
@@ -49,3 +49,5 @@ The score of a challenge cannot drop below 200 points. Introductory challenges a
 | Zack Adeaux | 🟧 Medium | 967 points | 42 validations | 🏖️ |
 | RSAlade-tomatECC-oigNPon | 🟥 Hard | 1000 points | 7 validations | 🏖️ |
 | La Brasse ou Le Papillon ? | 🟪 Extreme | 1000 points | 1 validation | 🏖️ |
+
+Please reach out to me on Discord @mairwane if you want to talk about any of those challenges.
